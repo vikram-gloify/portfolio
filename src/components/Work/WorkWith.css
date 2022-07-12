@@ -1,0 +1,36 @@
+
+/* worked with */
+#worked-with{
+    padding-top: 56px;
+    padding-bottom: 58px;
+    background-image: url(../../assets/Images/brand-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#worked-with .main-content{
+    font-size: 36px;
+    color: rgb(254, 254, 255);
+    line-height: 1.278;
+}
+#worked-with .main-content h2{
+    margin-bottom: 48px;
+}
+#worked-with .main-content .single-item{
+    text-align: center;
+    padding: 15px 20px;
+}
+#worked-with .slick-slide img {
+    display: initial;
+}
+#worked-with .main-content .single-item img{
+    margin: auto;
+}
+#worked-with .main-content .slick-slider {
+    margin:0 -15px;
+}
+#worked-with .main-content .slick-slide {
+    border: 1px solid #8153de;
+    border-radius: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+}

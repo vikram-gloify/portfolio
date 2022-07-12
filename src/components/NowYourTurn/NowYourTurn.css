@@ -1,0 +1,43 @@
+/* Now Your Turn */
+#now-your-turn {
+    position: relative;
+    background-color: rgb(98, 45, 207);
+    margin-bottom: 120px;
+}
+#now-your-turn .overlay .section-header {
+    margin-bottom: 40px;
+}
+#now-your-turn .overlay .section-header .cmn-btn{
+    margin-top: 36px;
+}
+#now-your-turn .overlay .section-header .title,
+#now-your-turn .overlay .section-header p{
+    color: rgb(240, 232, 255);
+}
+#now-your-turn .right-area{
+    position: absolute;
+    right: 8%;
+    top: -8%;
+}
+#now-your-turn .bottom-area .single-item{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1.463px 13.923px 57px 0px rgba(43, 0, 132, 0.1);
+    padding: 69px 0 76px;
+    text-align: center;
+}
+#now-your-turn .bottom-area .single-item {
+    margin-bottom: -120px;
+}
+#now-your-turn .bottom-area .single-item span {
+    font-size: 80px;
+    color: rgb(49, 21, 103);
+    font-weight: 800;
+    line-height: 1.125;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+#now-your-turn .bottom-area .single-item h5 {
+    color: #8C3A32;;
+    font-weight: 400;
+}
