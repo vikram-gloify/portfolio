@@ -1,11 +1,8 @@
 import React from 'react';
-import './FqSection.css';
+
 
 function FqSection() {
   return (
-
-
-    // faq-section
     <section id="faq-section">
         <div className="overlay pt-120 pb-120">
             <div className="container">

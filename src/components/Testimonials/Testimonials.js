@@ -1,6 +1,6 @@
 import React from 'react';
 import { TestimonialsUser1, TestimonialsUser2, TestimonialsUser3 } from '../../constant/Images';
-import './Testimonials.css';
+
 
 function Testimonials() {
   return (

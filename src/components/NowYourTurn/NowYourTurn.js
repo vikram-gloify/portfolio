@@ -1,6 +1,6 @@
 import React from 'react';
 import { NowYourTurnImg} from '../../constant/Images';
-import './NowYourTurn.css';
+
 
 
 

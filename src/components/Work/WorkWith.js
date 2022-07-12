@@ -1,6 +1,7 @@
 import React from 'react';
 import { Brand1, Brand2, Brand3, Brand4 } from '../../constant/Images';
-import './WorkWith.css';
+
+
 function WorkWith() {
   return (
     <section id="worked-with">

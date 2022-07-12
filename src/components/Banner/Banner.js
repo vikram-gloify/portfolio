@@ -1,6 +1,6 @@
 import React from 'react';
 import { bannerCircle, download, hi, illustrations, uiux, work } from '../../constant/Images';
-import './Banner.css';
+
 function Banner() {
   return (
     <section id="banner-section">
