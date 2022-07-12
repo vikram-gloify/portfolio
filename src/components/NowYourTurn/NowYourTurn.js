@@ -8,7 +8,7 @@ function NowYourTurn() {
   return (
     <section id="now-your-turn">
     <div className="overlay pt-120 pb-120">
-        <div className="container wow fadeInUp">
+        <div className="container wow fadeInUp visibility: visible; animation-name: fadeInUp;">
             <div className="row">
                 <div className="col-lg-7">
                     <div className="section-header">
@@ -16,8 +16,8 @@ function NowYourTurn() {
                         <h3 className="title">Interested in Working with Me?</h3>
                         <p>Do you need help with any web design or development project?
                             Let me give you a hand. Get in touch with me and i will get back to
-                            you within 1-2 business days.</p>
-                        <a href="contact.html" className="cmn-btn">Contact me</a>
+                            you within <br /> 1-2 business days.</p>
+                        <a href="/contact" className="cmn-btn">Contact me</a>
                     </div>
                 </div>
             </div>

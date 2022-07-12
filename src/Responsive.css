@@ -498,7 +498,7 @@
         right: 25%;
     }
     .navbar-light .navbar-toggler {
-        right: 16%;
+        padding-right: 16%;
     }
     #banner-section {
         padding-top: 130px;
@@ -714,7 +714,7 @@
         justify-content: start!important;
     }
     .navbar-light .navbar-toggler {
-        right: 5%;
+        padding-right: 5%;
     }
     .section-title {
         font-size: 26px;
