@@ -1,4 +1,118 @@
 
+/* Contact me */
+#banner-section.inner-banner.contact .text-area {
+    margin-bottom: 43px;
+}
+#contact-me .contact-info-area{
+    margin-top: -120px;
+}
+#contact-me .contact-info-area .contact-bg{
+    border-radius: 20px;
+    background-color: var(--body-color);
+    box-shadow: 4.358px -49.81px 46px 0px rgba(70, 31, 227, 0.08);
+}
+#contact-me .pr-15{
+    padding-right: 15px !important;
+}
+#contact-me .pl-15{
+    padding-left: 15px !important;
+}
+#contact-me .section-header .sub-title{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.357;
+}
+#contact-me .section-header .title{
+    font-size: 36px;
+    color: rgb(59, 24, 139);
+    font-weight: bold;
+    line-height: 1.278;
+}
+#contact-me .contact-info a{
+    color: rgb(59, 24, 139);
+    margin-bottom: 45px;
+}
+#contact-me .contact-info a img{
+    margin-right: 11px;
+}
+#contact-me .social-area h4{
+    margin-bottom: 19px;
+}
+#contact-me .contact-info-area .contact-bg .cmn-btn{
+    display: block;
+}
+#contact-me .form-area .input-area.select{
+    border: none;
+}
+#contact-me .form-area .input-area {
+    position: relative;
+    border: 1px solid #efeafa;
+    background-color: #fbfbff;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+#contact-me .form-area input{
+    position: relative;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: #fbfbff;
+    color: rgb(59, 24, 139);
+}
+#contact-me .form-area .input-area img {
+    position: absolute;
+    right: 30px;
+    top: 16px;
+}
+#contact-me .form-area .nice-select{
+    border: 1px solid #efeafa;
+    border-radius: 30px;
+    width: 100%;
+    background-color: #fbfbff;
+    color: rgb(136, 123, 167);
+    padding: 9px 30px;
+    margin-bottom: 30px;
+    height: initial;
+}
+#contact-me .form-area .nice-select.open .list {
+    width: 100%;
+}
+#contact-me .form-area .nice-select span{
+    color: rgb(59, 24, 139);
+}
+#contact-me .form-area .nice-select:after {
+    border-bottom: 2px solid #958ab1;
+    border-right: 2px solid #958ab1;
+    height: 12px;
+    margin-top: -8px;
+    right: 36px;
+    width: 12px;
+}
+#contact-me input,
+#contact-me textarea {
+    border: none;
+}
+#contact-me .textarea-area textarea{
+    border: 1px solid #efeafa;
+    background-color: #fbfbff;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    color: rgb(59, 24, 139)!important;
+}
+#contact-me .contact-info-area .contact-area {
+    border-radius: 100px;
+    background-color: rgb(251, 251, 255);
+    padding: 40px;
+}
+#contact-me .contact-info-area .contact-area .contact-header{
+    margin-bottom: 32px;
+}
+#contact-me .contact-info-area .contact-area .contact-header u{
+    font-weight: 600;
+}
+
+
+
+
 /* footer-section */
 #footer-section .overlay{
     position: relative;
