@@ -1,3 +1,4 @@
+/* header area */
 
 
 .header {
@@ -14,7 +15,7 @@
     justify-content: center;
 }
 
-/* header area */
+
 #header-section {
     position: absolute;
     padding-top: 0;

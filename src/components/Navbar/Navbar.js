@@ -21,6 +21,8 @@ function Navbar() {
                 </a>
               </div>
 
+              
+
               {/* Navbar */}
               <nav className="navbar navbar-expand-lg p-0">
                 <div
@@ -43,7 +45,7 @@ function Navbar() {
                       <a href="/products">Products</a>
                     </li>
                     <li className="menu_has_children">
-                      <a href="/">Pages</a>
+                      <a href="#0">Pages</a>
                       <ul className="sub-menu">
                         <li>
                           <a href="/blog">Blog</a>
