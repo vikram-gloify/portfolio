@@ -1,4 +1,6 @@
 import React from 'react';
+import './ProfessionalSkills.css';
+
 
 const ProfessionalSkills = () => {
     return (

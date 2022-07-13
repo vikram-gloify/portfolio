@@ -1,6 +1,6 @@
 import React from 'react';
 import { specilizingIcon1, specilizingIcon2, specilizingIcon3, specilizingIcon4 } from '../../constant/Images';
-
+import './Specializing.css';
 
 function Specializing() {
   return (

@@ -1,11 +1,12 @@
 import React from 'react';
 import { NowYourTurnImg } from '../../constant/Images';
+import './NowYourTurn.css';
 
 function NowYourTurn() {
   return (
     <section id="now-your-turn">
       <div className="overlay pt-120 pb-120">
-        <div className="container wow fadeInUp visibility: visible; animation-name: fadeInUp;">
+        <div className="container wow fadeInUp">
           <div className="row">
             <div className="col-lg-7">
                   {/* NowYurTurn Heading and Title  */}

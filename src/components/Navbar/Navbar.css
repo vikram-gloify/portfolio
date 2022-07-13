@@ -1,0 +1,159 @@
+
+
+.header {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* header area */
+#header-section {
+    position: absolute;
+    padding-top: 0;
+    padding-left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: transparent;
+}
+#header-section .header-area{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#header-section .navbar .navbar-nav .dropdown a,
+#header-section .navbar .navbar-nav li a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+#header-section .navbar .navbar-nav li a.active,
+#header-section .navbar .navbar-nav li a:hover{
+    background-image: linear-gradient(40deg, rgb(184,93,255) 0%, rgb(255,69,69) 100%);
+    border-radius: 0 0 20px 20px;
+}
+#header-section .navbar .navbar-nav .menu_has_children a{
+    padding-right: 40px;
+}
+#header-section .navbar .navbar-nav .menu_has_children{
+    display: grid;
+    align-items: center;
+}
+#header-section .navbar .navbar-nav .menu_has_children::after{
+    position: absolute;
+    content: '';
+    background-image: url(../../assets/Images/down-arrow.png);
+    background-repeat: no-repeat;
+    height: 7px;
+    width: 15px;
+    right: 15px;
+    transition: all ease 0.3s;
+}
+#header-section .navbar .navbar-nav .dropdown{
+    display: flex;
+    align-items: center;
+}
+#header-section .navbar .navbar-nav .cart-area .cart-menu{
+    display: table-column;
+    transform: translateY(150px);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#header-section .navbar .navbar-nav .cart-area .cart-menu.show{
+    transform: translateY(-50px);
+    opacity: 1;
+    position: absolute;
+    top: 100%;
+    left: -45%;
+    background-color: var(--body-color);
+    padding: 0;
+    width: 270px;
+    z-index: 9;
+    border-radius: 10px;
+    box-shadow: 0px 22px 84px 0px rgb(127 153 202 / 42%);
+}
+#header-section .navbar .navbar-nav .cart-area .dropdown-items{
+    border: 1px solid #e9e8e9;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin: 15px 10px;
+    position: relative;
+}
+#header-section .navbar .navbar-nav .cart-area .image-area img{
+    max-width: initial;
+    margin-right: 10px;
+}
+#header-section .navbar .navbar-nav .cart-area .text-area h5{
+    font-size: 16px;
+    font-family: var(--body-font);
+    font-weight: 400;
+    color: rgb(90, 62, 142);
+    line-height: 1.5;
+}
+#header-section .navbar .navbar-nav .cart-area .text-area .qnt span,
+#header-section .navbar .navbar-nav .cart-area .text-area .qnt{
+    font-size: 13px;
+    color: rgb(90, 62, 142);
+    line-height: 1.846;
+}
+#header-section .navbar .navbar-nav .cart-area .text-area .price span,
+#header-section .navbar .navbar-nav .cart-area .text-area .price{
+    font-size: 16px;
+    color: rgb(128, 70, 248);
+    line-height: 1.5;
+    font-weight: 500;
+}
+#header-section .navbar .navbar-nav li .cart-menu a:hover {
+    background-image: unset;
+    border-radius: 10px;
+}
+#header-section .navbar .navbar-nav li .cart-menu .view{
+    background-image: linear-gradient(45deg, rgb(247,112,98) 0%, rgb(254,81,150) 100%);
+    font-size: 12px;
+    padding: 10px 16px;
+    border-radius: 20px;
+    margin: 40px 0 30px;
+}
+#header-section .navbar .navbar-nav li .cart-menu .view:hover{
+    background-image: linear-gradient( 45deg, rgb(247,112,98) 0%, rgb(254,81,150) 100%);
+    box-shadow: 0px 26px 38px 0px rgba(254, 81, 149, 0.3);
+    border-radius: 20px;
+}
+#header-section .navbar .navbar-nav li .cart-menu .total-order p{
+    font-size: 14px;
+    color: rgb(86, 79, 101);
+    line-height: 1.714;
+}
+#header-section .navbar .navbar-nav li .cart-menu .total-order span{
+    font-size: 16px;
+    color: rgb(128, 70, 248);
+    line-height: 1.5;
+    font-weight: 500;
+}
+#header-section .navbar .navbar-nav li .cart-menu button{
+    position: absolute;
+    right: -8px;
+    top: -15px;
+    background-color: transparent;
+}
+#header-section .navbar .navbar-nav li .cart-menu .total-order{
+    border-top: 1px solid #e9e8e9;
+    border-bottom: 1px solid #e9e8e9;
+    padding: 6px 10px;
+}
+#header-section .navbar .navbar-nav li .cart-menu .total-order p {
+    font-size: 14px;
+    color: rgb(86, 79, 101);
+    line-height: 1.714;
+}
+#header-section .navbar .navbar-nav li .cart-menu .total-order .dollar {
+    font-size: 16px;
+    color: rgb(128, 70, 248);
+    line-height: 1.5;
+}

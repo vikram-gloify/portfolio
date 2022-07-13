@@ -1,0 +1,60 @@
+
+/* Past Experience */
+#past-experience .single-item{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -3.742px 17.607px 73px 0px rgb(70 31 227 / 14%);
+    padding: 50px;
+    margin: 40px 0;
+}
+#past-experience .single-item h3{
+    font-size: 26px;
+    line-height: 36px;
+    margin-bottom: 12px;
+    font-weight: 800;
+}
+#past-experience .single-item p a{
+    color: rgb(23 95 3);
+}
+#past-experience .left-point{
+    width: 24px;
+    height: 24px;
+    background-color: rgb(98, 45, 207);
+    border-radius: 50%;
+    position: relative;
+}
+#past-experience .left-point::after{
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    box-shadow: -1.04px 4.891px 10px 0px rgba(70, 31, 227, 0.52);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: -3px;
+    z-index: -1;
+    left: -3px;
+}
+#past-experience .scroll-line{
+    position: relative;
+}
+#past-experience .scroll-line::after{
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 75%;
+    left: 8px;
+    top: calc(22% - 100px);
+    background: #dfd4f5;
+    z-index: -2;
+}
+#past-experience .scroll-line::before{
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 35%;
+    left: 8px;
+    top: calc(22% - 100px);
+    background: rgb(98, 45, 207);
+    z-index: -1;
+}

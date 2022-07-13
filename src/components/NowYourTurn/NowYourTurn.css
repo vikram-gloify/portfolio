@@ -1,0 +1,94 @@
+
+/* Now Your Turn */
+
+#now-your-turn {
+    position: relative;
+    background-color: rgb(98, 45, 207);
+    margin-bottom: 120px;
+}
+#now-your-turn .overlay .section-header {
+    margin-bottom: 40px;
+}
+#now-your-turn .overlay .section-header .cmn-btn{
+    margin-top: 36px;
+}
+#now-your-turn .overlay .section-header .title,
+#now-your-turn .overlay .section-header p{
+    color: rgb(240, 232, 255);
+}
+#now-your-turn .right-area{
+    position: absolute;
+    right: 8%;
+    top: -8%;
+}
+#now-your-turn .bottom-area .single-item{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1.463px 13.923px 57px 0px rgba(43, 0, 132, 0.1);
+    padding: 69px 0 76px;
+    text-align: center;
+}
+#now-your-turn .bottom-area .single-item {
+    margin-bottom: -120px;
+}
+#now-your-turn .bottom-area .single-item span {
+    font-size: 80px;
+    color: rgb(49, 21, 103);
+    font-weight: 800;
+    line-height: 1.125;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+#now-your-turn .bottom-area .single-item h5 {
+    color: #8C3A32;;
+    font-weight: 400;
+}
+
+
+/* now your turn */
+#now-your-turn.about {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#now-your-turn.about .overlay{
+    margin-bottom: -10px;
+}
+#now-your-turn.about {
+    margin-top: 153px;
+}
+#now-your-turn.about .top-area{
+    position: relative;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, rgb(184,203,184) 0%, rgb(184,203,184) 0%, rgb(180,101,218) 0%, rgb(207,108,201) 33%, rgb(238,96,156) 66%, rgb(238,96,156) 100%);
+    width: 395px;
+    height: 395px;
+    padding: 0 30px;
+    margin-top: -315px;
+}
+#now-your-turn.about .top-area::before,
+#now-your-turn.about .top-area::after{
+    position: absolute;
+    content: '';
+    border: 1px solid #612dd0;
+    border-radius: 50%;
+    width: 90%;
+    height: 90%;
+}
+#now-your-turn.about .top-area::before {
+    left: 15%;
+    top: 0%;
+}
+#now-your-turn.about .top-area::after{
+    right: 14%;
+    bottom: 5%;
+}
+#now-your-turn.about .top-area h1{
+    color: var(--body-color);
+    font-weight: 500;
+    z-index: 1;
+}
+
+/* now-your-turn */
+#now-your-turn.portfolio{
+    margin-top: 194px;
+}

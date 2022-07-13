@@ -1,0 +1,105 @@
+
+/* My Professional Skills */
+#professional-skills {
+    background-color: #fafbff;
+}
+#professional-skills .overlay{
+    margin-bottom: 58px;
+}
+#professional-skills .header-item{
+    position: relative;
+    z-index: 1;
+}
+#professional-skills .skills-item{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2.3px 21.879px 79px 0px rgb(70 31 227 / 15%);
+    position: relative;
+    margin-top: 30px;
+}
+#professional-skills .skills-item .single-item {
+    text-align: center;
+    transition: all 0.3s;
+}
+#professional-skills .professional-carousel{
+    transform: scaleY(2.8);
+    height: 355px;
+    padding: 110px 0 0 0;
+}
+#professional-skills .professional-carousel .single-item:hover {
+    border-radius: 3%;
+    background-color: rgb(124, 67, 243);
+    box-shadow: 2.3px 21.879px 79px 0px rgba(70, 31, 227, 0.1);
+    padding: 5px 0 30px 0;
+    margin-top: -7px;
+}
+#professional-skills .professional-carousel .single-item:hover h3{
+    color: var(--body-color);
+}
+#professional-skills .skills-item .single-item h3{
+    transform: scaleY(0.34);
+    color: rgb(90, 62, 142);
+    font-weight: 500;
+}
+#professional-skills .skills-item .single-item .icon-area {
+    border-radius: 50%;
+    background-color: rgb(255, 186, 121);
+    margin: auto;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -46px;
+    margin-top: -13px;
+    transform: scaleY(0.34);
+}
+#professional-skills .skills-item .single-item .icon-area.second{
+    background-color: rgb(206, 232, 249);
+}
+#professional-skills .skills-item .single-item .icon-area.third{
+    background-color: rgb(255, 173, 208);
+}
+#professional-skills .skills-item .single-item .icon-area.fourth{
+    background-color: rgb(228, 182, 255);
+}
+#professional-skills .btn-icon {
+    background-color: #a8a8a8;
+    height: 2px;
+}
+#professional-skills .btn-icon::before{
+    border-color: #a8a8a8;
+}
+#professional-skills .btn-icon:hover::before{
+    border-color: #4f4f4f;
+}
+#professional-skills .btn-icon:hover {
+    width: 60px;
+    background-color: #4f4f4f;
+}
+#professional-skills .slick-initialized .slick-slide{
+    opacity: 0;
+}
+#professional-skills .slick-initialized .slick-active{
+    opacity: 1;
+}
+#professional-skills .slick-initialized .slick-list{
+    overflow: inherit;
+}
+#professional-skills .slick-initialized .slick-arrow {
+    position: absolute;
+    top: 12%;
+    transform: scaleY(0.4);
+    z-index: 1;
+}
+#professional-skills .slick-initialized .slick-prev::before {
+    top: -8px;
+    transform: rotate(225deg);
+    left: -1px;
+}
+#professional-skills .slick-initialized .slick-prev {
+    left: calc(92% - 60px);
+}
+#professional-skills .slick-initialized .slick-next {
+    left: calc(98% - 60px);
+}

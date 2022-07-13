@@ -1,12 +1,12 @@
-import React from 'react';
+import React from 'react'
 import { cartImage1, cartImage2, closeBtn, logo } from '../../constant/Images';
 import ScrollToTop from '../Scroll/ScrollToTop';
+import './Navbar.css';
 
-const Navbar = () => {
+function Navbar() {
   return (
-    <>
-
-     {/* ScrollToTop */}
+    <div>
+         {/* ScrollToTop */}
 
      <ScrollToTop/>
       
@@ -37,10 +37,10 @@ const Navbar = () => {
                       <a href="/about-page">About</a>
                     </li>
                     <li>
-                      <a href="portfolio">Portfolio</a>
+                      <a href="/portfolio">Portfolio</a>
                     </li>
                     <li>
-                      <a href="products">Products</a>
+                      <a href="/products">Products</a>
                     </li>
                     <li className="menu_has_children">
                       <a href="/">Pages</a>
@@ -118,7 +118,7 @@ const Navbar = () => {
                               </p>
                             </div>
                             <div className="d-flex justify-content-center">
-                              <a href="#view" className="view">
+                              <a href="/view" className="view">
                                 VIEW CART &amp; CHECKOUT
                               </a>
                             </div>
@@ -151,8 +151,9 @@ const Navbar = () => {
           </div>
         </div>
       </header>
-    </>
-  );
-};
+    </div>
+  )
+}
 
-export default Navbar;
+export default Navbar
+

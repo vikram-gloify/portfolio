@@ -1,6 +1,6 @@
 import React from 'react';
 import { latestProject1, latestProject2, latestProject3, socialIcon1, socialIcon2, socialIcon3 } from '../../constant/Images';
-
+import './LastProject.css';
 
 
 function LastProject() {
