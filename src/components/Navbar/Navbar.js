@@ -1,14 +1,15 @@
 import React from 'react';
 import { cartImage1, cartImage2, closeBtn, logo } from '../../constant/Images';
+import ScrollToTop from '../Scroll/ScrollToTop';
 
 const Navbar = () => {
   return (
     <>
-      {/* scrollToTop */}
-      <a href="#home" className="scrollToTop active">
-        <i className="fas fa-angle-double-up"></i>
-      </a>
 
+     {/* ScrollToTop */}
+
+     <ScrollToTop/>
+      
       {/* header-section start  */}
       <header id="header-section" className="animated fadeInDown header-fixed">
         <div className="overlay">
@@ -33,7 +34,7 @@ const Navbar = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="about">About</a>
+                      <a href="/about-page">About</a>
                     </li>
                     <li>
                       <a href="portfolio">Portfolio</a>
@@ -64,58 +65,77 @@ const Navbar = () => {
                         </li>
                       </ul>
                     </li>
+                    {/* cart area */}
                     <li className="cart-area">
                       <button className="cart-toggle cart">
                         Cart<span>2</span>
                       </button>
                       <div className="cart-menu">
-                                        <div className="row">
-                                            <div className="col-lg-12">
-                                                <div className="cart-items">
-                                                    <div className="dropdown-items d-flex">
-                                                        <div className="image-area">
-                                                            <img src={cartImage1} alt="img"/>
-                                                        </div>
-                                                        <div className="text-area">
-                                                            <h5>Minimalistic Phone Mockup</h5>
-                                                            <p className="qnt">Quantity: <span>1</span></p>
-                                                            <p className="price">$<span>10.00</span></p>
-                                                        </div>
-                                                        <button type="button"><img src={closeBtn} alt="img"/></button>
-                                                    </div>
-                                                </div>
-                                                <div className="cart-items">
-                                                    <div className="dropdown-items d-flex">
-                                                        <div className="image-area">
-                                                            <img src={cartImage2} alt="img"/>
-                                                        </div>
-                                                        <div className="text-area">
-                                                            <h5>Minimalistic Phone Mockup</h5>
-                                                            <p className="qnt">Quantity: <span>1</span></p>
-                                                            <p className="price">$<span>10.00</span></p>
-                                                        </div>
-                                                        <button type="button"><img src={closeBtn} alt="img"/></button>
-                                                    </div>
-                                                </div>
-                                                <div className="total-order d-flex justify-content-between">
-                                                    <p>Order total:</p>
-                                                    <p className="dollar">$<span>20.00</span></p>
-                                                </div>
-                                                <div className="d-flex justify-content-center">
-                                                    <a href="#view" className="view">VIEW CART &amp; CHECKOUT</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                        <div className="row">
+                          <div className="col-lg-12">
+                            <div className="cart-items">
+                              <div className="dropdown-items d-flex">
+                                <div className="image-area">
+                                  <img src={cartImage1} alt="img" />
+                                </div>
+                                <div className="text-area">
+                                  <h5>Minimalistic Phone Mockup</h5>
+                                  <p className="qnt">
+                                    Quantity: <span>1</span>
+                                  </p>
+                                  <p className="price">
+                                    $<span>10.00</span>
+                                  </p>
+                                </div>
+                                <button type="button">
+                                  <img src={closeBtn} alt="img" />
+                                </button>
+                              </div>
+                            </div>
+                            <div className="cart-items">
+                              <div className="dropdown-items d-flex">
+                                <div className="image-area">
+                                  <img src={cartImage2} alt="img" />
+                                </div>
+                                <div className="text-area">
+                                  <h5>Minimalistic Phone Mockup</h5>
+                                  <p className="qnt">
+                                    Quantity: <span>1</span>
+                                  </p>
+                                  <p className="price">
+                                    $<span>10.00</span>
+                                  </p>
+                                </div>
+                                <button type="button">
+                                  <img src={closeBtn} alt="img" />
+                                </button>
+                              </div>
+                            </div>
+                            <div className="total-order d-flex justify-content-between">
+                              <p>Order total:</p>
+                              <p className="dollar">
+                                $<span>20.00</span>
+                              </p>
+                            </div>
+                            <div className="d-flex justify-content-center">
+                              <a href="#view" className="view">
+                                VIEW CART &amp; CHECKOUT
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </li>
                   </ul>
                 </div>
               </nav>
+              {/* Contact me Btn */}
               <div className="right-area header-action d-flex align-items-center">
                 <a href="contact" className="cmn-btn">
                   Contact Me
                 </a>
               </div>
+              {/* Toggler bar */}
               <button
                 className="navbar-toggler"
                 type="button"

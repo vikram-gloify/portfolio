@@ -29,6 +29,7 @@ import Brand4 from '../assets/Images/brand-4.png';
 import BrandBg from '../assets/Images/brand-bg.png';
 
 export{
+    // Images Components
 logo,
 cartImage1,
 cartImage2,

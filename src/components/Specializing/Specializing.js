@@ -4,6 +4,7 @@ import { specilizingIcon1, specilizingIcon2, specilizingIcon3, specilizingIcon4 
 
 function Specializing() {
   return (
+    // Specializing Section
     <section id="specilizing-section">
     <div className="overlay pt-120 pb-120">
         <div className="container wow fadeInUp">

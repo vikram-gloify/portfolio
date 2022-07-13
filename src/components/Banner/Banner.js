@@ -5,6 +5,7 @@ import { bannerCircle, download, hi, illustrations, uiux, work } from '../../con
 
 function Banner() {
   return (
+    // Banner Section
     <section id="banner-section">
         <div className="banner-content d-flex align-items-center pb-120">
             <div className="container">
@@ -32,7 +33,7 @@ function Banner() {
                                     <div className="right-area text-center">
                                         <img src={bannerCircle} className="right-img" alt="banner-circle"/>
                                         <div className="download-area">
-                                            <a href="#download" className="download">Download CV
+                                            <a href="/download" className="download">Download CV
                                                 <img src={download} alt="img"/>
                                             </a>
                                         </div>
@@ -48,8 +49,8 @@ function Banner() {
                             <h5>HI THERE, I'M JAMES</h5>
                             <h2>A <span>Digital</span> Product Designer</h2>
                             <div className="btn-area d-flex align-items-center justify-content-center">
-                                <a href="contact.html" className="cmn-btn">Contact Me</a>
-                                <a href="portfolio.html" className="cmn-btn-second">View Project
+                                <a href="/contact" className="cmn-btn">Contact Me</a>
+                                <a href="/portfolio" className="cmn-btn-second">View Project
                                     <span className="btn-icon"></span>
                                 </a>
                             </div>

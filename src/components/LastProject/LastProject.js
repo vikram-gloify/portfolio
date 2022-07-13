@@ -5,6 +5,7 @@ import { latestProject1, latestProject2, latestProject3, socialIcon1, socialIcon
 
 function LastProject() {
   return (
+    // Project Section
     <section id="latest-project">
         <div className="overlay pt-120 pb-120">
             <div className="container wow fadeInUp">
@@ -84,6 +85,7 @@ function LastProject() {
                             <h2>like what you see? <span>follow me</span> and
                                 discover more great  designs</h2>
                             <div className="social d-flex justify-content-center">
+                                {/* Social media Section  */}
                                 <a href="/" className="single-icon dribbble"><img src={socialIcon1} alt="social"/></a>
                                 <a href="/" className="single-icon instagram"><img src={socialIcon2} alt="social"/></a>
                                 <a href="/" className="single-icon behance"><img src={socialIcon3} alt="social"/></a>
